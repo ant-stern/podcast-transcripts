@@ -49,6 +49,17 @@
         #showLinks a:visited {
             color: orange;
         }
+        /* New Styles for About link, now top left */
+        #aboutLink {
+            position: absolute;
+            top: 10px;
+            left: 10px; /* Changed from right to left */
+            z-index: 1001;
+        }
+        #aboutLink a {
+            color: #FDD600;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -60,6 +71,9 @@
             <li><a href="http://oa.podcasttranscripts.org">Opie and Anthony</a></li>
             <li><a href="http://rf.podcasttranscripts.org">Ron and Fez</a></li>
         </ul>
+    </div>
+    <div id="aboutLink">
+        <a href="about.html">About</a>
     </div>
 </body>
 </html>
